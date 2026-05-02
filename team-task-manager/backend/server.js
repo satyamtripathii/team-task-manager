@@ -10,32 +10,49 @@ connectDB();
 
 const app = express();
 
-// Middleware
-app.use(express.json());
-app.use(cors());
+/* ======================
+   🔥 MIDDLEWARES
+====================== */
 
-// Test Route
+// Allow all origins (for now)
+app.use(cors({
+  origin: "*",
+  methods: ["GET", "POST", "PUT", "DELETE"],
+  allowedHeaders: ["Content-Type", "Authorization"]
+}));
+
+app.use(express.json());
+
+/* ======================
+   🔥 ROUTES
+====================== */
+
+// Health Check Route
 app.get("/", (req, res) => {
   res.send("API Running...");
 });
 
-// ✅ ADD THIS (VERY IMPORTANT)
+// API Routes
 app.use("/api/auth", require("./routes/authRoutes"));
-
-// Project Routes
 app.use("/api/projects", require("./routes/projectRoutes"));
-
 app.use("/api/tasks", require("./routes/taskRoutes"));
 
-// (we’ll add tasks later)
-// app.use("/api/tasks", require("./routes/taskRoutes"));
+/* ======================
+   🔥 ERROR HANDLER
+====================== */
 
-// Global Error Handler
 app.use((err, req, res, next) => {
+  console.error(err); // log for debugging
+
   res.status(err.status || 500).json({
+    success: false,
     message: err.message || "Server Error",
   });
 });
+
+/* ======================
+   🔥 SERVER START
+====================== */
 
 const PORT = process.env.PORT || 5000;
 
