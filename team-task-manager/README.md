@@ -115,13 +115,16 @@ npm run dev
 ## 📸 Screenshots
 
 ### 🔑 Login Page
-![Login](./screenshots/login.png)
+<img width="1919" height="942" alt="image" src="https://github.com/user-attachments/assets/7c31cb52-eb84-4750-91c5-1e2573b254ce" />
+
 
 ### 📊 Dashboard
-![Dashboard](./screenshots/dashboard.png)
+<img width="1919" height="934" alt="image" src="https://github.com/user-attachments/assets/edd02152-d005-4e7e-aed2-cc63d9cd2bf0" />
+
 
 ### 📁 Projects
-![Projects](./screenshots/projects.png)
+<img width="1917" height="883" alt="image" src="https://github.com/user-attachments/assets/f419a574-3bb4-4bbe-818a-7e259f6e66bd" />
+
 
 > 👉 Create a `screenshots/` folder and add images
 
