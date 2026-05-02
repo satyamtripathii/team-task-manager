@@ -6,14 +6,14 @@ A modern **full-stack task management platform** to manage projects, assign task
 
 ## 🌐 Live Demo
 
-- 🔗 **Frontend (Vercel):** https://your-frontend-link.vercel.app  
-- 🔗 **Backend (Render):** https://your-backend-link.onrender.com  
+- 🔗 **Frontend (Vercel):** https://team-task-manager-471ukzswy-satyamtripathiis-projects.vercel.app/
+- 🔗 **Backend (Railway):** team-task-manager-production-1944.up.railway.app
 
 ---
 
 ## 📂 GitHub Repository
 
-👉 https://github.com/YOUR_USERNAME/team-task-manager
+👉 https://github.com/satyamtripathii/team-task-manager
 
 ---
 
@@ -115,14 +115,12 @@ npm run dev
 ## 📸 Screenshots
 
 ### 🔑 Login Page
-
+<img width="1919" height="938" alt="image" src="https://github.com/user-attachments/assets/9631d128-e494-4781-84e3-0f821d594a20" />
+<img width="1919" height="878" alt="image" src="https://github.com/user-attachments/assets/f2558435-bd12-459e-9a14-fb9020331321" />
 
 
 ### 📊 Dashboard
-
-
-### 📁 Projects
-
+<img width="1919" height="879" alt="image" src="https://github.com/user-attachments/assets/2d9baef2-d219-4a87-991f-fec4d6757981" />
 
 
 > 👉 Create a `screenshots/` folder and add images
@@ -164,8 +162,8 @@ npm run dev
 
 **Satyam Tripathi**  
 🎓 B.Tech CSE | 💻 Full Stack Developer  
-📧 your-email@gmail.com  
-🔗 https://github.com/YOUR_USERNAME  
+📧 satyamtripathi798@gmail.com  
+🔗 https://github.com/satyamtripathii 
 
 ---
 
