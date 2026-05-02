@@ -7,7 +7,7 @@ A modern **full-stack task management platform** to manage projects, assign task
 ## 🌐 Live Demo
 
 - 🔗 **Frontend (Vercel):** https://team-task-manager-471ukzswy-satyamtripathiis-projects.vercel.app/
-- 🔗 **Backend (Railway):** team-task-manager-production-1944.up.railway.app
+- 🔗 **Backend (Railway):** https://team-task-manager-production-1944.up.railway.app
 
 ---
 
